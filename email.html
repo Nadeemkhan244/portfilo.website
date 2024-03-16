@@ -26,16 +26,40 @@
     background-color: aqua;
     margin: 1%;
     }
+    select, input{
+            margin: 10px;
+            background-color: rgb(170, 234, 234);
+            
+        }
+        form{
+            background-color: yellow;
+            margin: 60px;
+            margin-right: 350px;
+            margin-left: 150px;
+            text-align: center;
+            
+        }
+        option{
+            background-color: rgb(245, 8, 55);
+        }
+        H2{
+            background-color: black;
+            color: white;
+            
+        
+        }
+        a{
+        width: 100px;
+     background-color: aqua;
+    margin: 1%;
+    }
 </style>
     <body>
-        <h1 id="email">contact page</h1>
-    <a href="home.html">Home</a>
-        <a  href="skills.html">skills </a>
-       <a href="forrm.html">form</a>
-
-    
-    <a  href="./project.html">project </a><br><br>
         <h3>My email</h3>
+    <a href="index.html">Home</a>
+        <a  href="skills.html">skills </a>
+    <a  href="./project.html">projects </a><br><br>
+       
         <img src="./emailpic.png"width="100"height="100"alt="emil pic"><br>
         <a href="milto/: Nadeemkhna@google.com">Nadeem@gmail.com</a><br><br> 
         <h3>whatts app</h3>
@@ -60,6 +84,40 @@
             <td>092-------</td>
         </tr>
         </table><br>
+        <form>
+            <fieldset>
+             <h2>EVENT REGISTRATION FORM</h2><br>
+             <label for=" first name">Name :</label>
+             <input type="text"name="username"size="10"maxlength="30"placeholder="First name"/>
+             <label for=" second name"></label>
+             <input type="text"name="username"size="15"maxlength="30"placeholder="Second name"/>  <br>
+             <label for=" company">Company :</label>
+             <input type="text"name="company"size="31"maxlength="100"placeholder="company"/> <br>
+             <label for="email">Email :</label>  
+             <input type="email"name="email"placeholder="example@email.com"requaired="requaired"
+             size="34"/>  <br> 
+             <label for="password">Password :</label>  
+             <input type="password"name="password"placeholder="password"requaired="requaired"maxlength="10"
+             size="30"/>  <br>
+             <label for ="phone">Phone :</label>
+             <input type="text"name="number"placeholder="phone number"size="34"maxlength="11"><br>
+             <label for="subject">Subject :</label>
+             <select name="subject">
+                 <option>choose Option</option>
+                 <option value="c++">C++</option>
+                 <option value="html">html</option>
+                 <option value="css">css</option>
+             </select>
+             <h4>Are you existing customer ?</h4>
+             <label for="selecton"></label>
+             <input type="radio"name="yes"checked="checked"/>yes
+             <label for="selecton"></label>
+             <input type="radio"name="no"checked="checked"/>No<br>
+             <label for="register"></label>
+             <input type="submit"name="register"value="register"/>
+            </fieldset>
+     
+         </form>
     
     </body>
     </html>
